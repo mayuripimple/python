@@ -1,1 +1,6 @@
 #To count words in given string
+mystring = 'This is simple string for word count'
+c = 0
+for i in mystring.split(" "):
+    c = c + 1
+print(c)
